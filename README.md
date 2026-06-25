@@ -6,5 +6,5 @@ kubectl create namespace test
 ## NodeExporter, Prometheus, Grafana
 kubectl create namespace monitoring
 
-## Lancer tous les yaml d'un dossier (appel à kustomizarion.yaml)
+## Lancer tous les yaml d'un dossier (appel à kustomization.yaml)
 kubectl apply -k node-exporter/

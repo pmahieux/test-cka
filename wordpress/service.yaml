@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Service
+metadata: { name: wordpress }
+spec:
+  type: NodePort                     # expose le site a l'exterieur
+  selector: { app: wordpress }
+  ports: [{ port: 80, targetPort: 80 }]
